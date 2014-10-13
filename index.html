@@ -243,7 +243,7 @@ the inspiration to this, and some handy implementation hints, came.
 
     function saveAsHtml() {
       var code = document.getElementById('out').innerHTML;
-      var blob = new Blob([code], { type: 'text/plain' });
+      var blob = new Blob([code], { type: 'text/html' });
       saveBlob(blob, "untitled.html");
     }
 
